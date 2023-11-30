@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+
+    <!--swiper css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--custom css-->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <i class="bx bx-moon" id="darkMode-icon"></i>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--home section design-->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>John Odhiambo</h1>
+        <p>
+          Results-oriented Frontend developer, offering extensive experience in
+          Web development, design, layout, and filming. Highly educated in HTML, CSS,
+          Javascript and Dart Programming languages. Productive employee with
+          proven track record of successful project management and producing
+          quality outcomes through leadership and team motivation.
+        </p>
+        <div class="social-media">
+          <!-- <a href="https://www.facebook.com/dogo.johnte"><i class="bx bxl-facebook"></i></a> -->
+          <a href="https://github.com/Joe-bits"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/john-odhiambo-a02574268"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://twitter.com/Joe22174Nnie"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/joe_nnie"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+        </div>
+
+        <a href="./Images/John_Odhiambo_Resume_16-11-2023-16-07-18.pdf" download="John Odhiambo" class="btn">Download CV</a>
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-palette"></i>
+            <h3>Web Designer</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bx-camera"></i>
+            <h3>Photographer</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bx-video-recording"></i>
+            <h3>Videographer</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img">
+        <img src="./Images/Home img.png" alt="" />
+      </div>
+    </section>
+
+    <!--about section design-->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./Images/Joe__3.png" alt="" />
+      </div>
+
+      <div class="about-content" id="about-me">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi, I'm Here To Help You In Your Next Project</h3>
+        <p>
+          Results-oriented web developer, offering extensive experience in
+          design and layout. Highly educated in various programming languages
+          and coding. Looking for a position in a fast-paced company that
+          appreciates hard work, dedication and evolving technical skills.
+          Productive employee with proven track record of successful project
+          management and producing quality outcomes through leadership and team
+          motivation. Works with clients to determine requirements and provide
+          excellent service.
+        </p>
+        <div class="additional-info-modal" style="display: none">
+          <!-- Additional information you want to display when "Read More" is clicked -->
+          <p>
+            I am a conscientious person who works hard and pays attention to
+            detail. I'm flexible, quick to pick up new skills and eager to learn
+            from others. I also have lots of ideas and enthusiasm. An aspiring
+            Full-Stack Developer pursuing my education at Nairobits Trust. I'm
+            keen to work for a company with a great reputation and high profile
+            as a software engineer.
+          </p>
+        </div>
+        <a href="#about-me" class="btn read-more">Read More</a>
+      </div>
+    </section>
+
+    <!--services section-->
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box" id="web-development">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            I am a skilled web developer with a passion for crafting innovative
+            and user-friendly websites. With a strong background in front-end technology, I excel at creating responsive,
+            fast-loading, and visually appealing web applications.
+          </p>
+          <div class="additional-info-modal" style="display: none">
+            <!-- Additional information you want to display when "Read More" is clicked -->
+            <p>
+              My proficiency in HTML, CSS, JavaScript, and a variety of
+              frameworks enables me to build websites that not only look great
+              but also function seamlessly. I am committed to staying up-to-date
+              with the latest industry trends and best practices, ensuring that
+              I deliver the best web solutions for my clients. If you're looking
+              for a web developer who can bring your digital vision to life, I'm
+              your go-to expert.
+            </p>
+            <a href="#web-development" class="btn close-btn">Close</a>
+          </div>
+          <a href="#web-development" class="btn read-more">Read More</a>
+        </div>
+
+        <div class="services-box" id="graphic-design">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            I am a skilled graphic designer, passionate about transforming ideas
+            into visually captivating and impactful designs. With a keen eye for
+            aesthetics and a strong command of design software, I excel at
+            creating stunning visuals for a wide range of projects.
+          </p>
+          <div class="additional-info-modal" style="display: none">
+            <!-- Additional information you want to display when "Read More" is clicked -->
+            <p>
+              Whether it's crafting logos, brochures, websites, or social media
+              graphics, my work is characterized by creativity, attention to
+              detail, and a deep understanding of the client's brand. I'm
+              committed to staying updated with the latest design trends and
+              techniques, ensuring that my clients receive cutting-edge
+              solutions. If you're in need of a graphic designer who can bring
+              your vision to life and make your brand stand out, I'm the design
+              expert you've been looking for.
+            </p>
+            <a href="#graphic-design" class="btn close-btn">Close</a>
+          </div>
+          <a href="#graphic-design" class="btn read-more">Read More</a>
+        </div>
+
+        <div class="services-box" id="digital-marketing">
+          <i class="bx bx-code-alt"></i>
+          <h3>Digital Marketing</h3>
+          <p>
+            I am a digital marketing specialist with a proven track record of
+            driving online success for businesses. With a deep understanding of
+            the digital landscape, I excel at creating and executing
+            comprehensive digital marketing strategies that boost brand
+            visibility, engagement, and ROI.
+          </p>
+          <div class="additional-info-modal" style="display: none">
+            <!-- Additional information you want to display when "Read More" is clicked -->
+            <p>
+              My skills encompass search engine optimization (SEO), social media
+              marketing, content creation, email marketing, and pay-per-click
+              (PPC) advertising. I'm adept at analyzing data and trends to
+              fine-tune campaigns for maximum impact. I stay ahead of the curve
+              in the ever-evolving digital marketing world, ensuring that I can
+              deliver the best results for my clients. If you're seeking a
+              digital marketing expert to help your business thrive in the
+              digital realm, I'm here to make it happen.
+            </p>
+            <a href="#digital-marketing" class="btn close-btn">Close</a>
+          </div>
+          <a href="#digital-marketing" class="btn read-more">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!--portfolio design section-->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="./Images/shutterSymphoyny.JPG" alt="" height="250" width="400" />
+          <div class="portfolio-layer">
+            <h4>Web Development</h4>
+            <p>
+              This is my photography website. 
+            </p>
+            <a href="https://joe-bits.github.io/ShutterSymphony/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./Images/Capture 1.JPG" alt="" height="250" width="400" />
+          <div class="portfolio-layer">
+            <h4>Web Development</h4>
+            <p>This is a client website I created</p>
+            <a href="https://joe-bits.github.io/Cuijper-girls-project/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./Images/Capture.JPG" alt="" height="250" width="400" />
+          <div class="portfolio-layer">
+            <h4>Web Development</h4>
+            <p>This is an Apple Clone Website I created</p>
+            <a href="https://joe-bits.github.io/Apple-Clone/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./Images/Nancys portfolio.JPG" alt="" height="250" width="400" />
+          <div class="portfolio-layer">
+            <h4>Web Development</h4>
+            <p>
+              This is a portfolio website I created for my designer.
+            </p>
+            <a href="https://joe-bits.github.io/Nancy1/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./Images/netflix.JPG" alt="" height="250" width="400" />
+          <div class="portfolio-layer">
+            <h4>Web Development</h4>
+            <p>
+              This is a netflix website clone I created.
+            </p>
+            <a href="https://joe-bits.github.io/netflix-clone/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./Images/Chess.JPG" alt="" height="250" width="400" />
+          <div class="portfolio-layer">
+            <h4>Web Development</h4>
+            <p>This is a chess game website</p>
+            <a href=" https://joe-bits.github.io/Chess--Game/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./Images/Marions portfolio.JPG" alt="" height="250" width="400" />
+          <div class="portfolio-layer">
+            <h4>Web Deveopment</h4>
+            <p>This is a portfolio website I developed.</p>
+            <a href="https://joe-bits.github.io/Marion/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./Images/fridays.jpg" alt="" height="250" width="400" />
+          <div class="portfolio-layer">
+            <h4>Design</h4>
+            <p>This is a clients poster I designed.</p>
+            <!-- <a href=" https://joe-bits.github.io/Chess--Game/"
+              ><i class="bx bx-link-external"></i
+            ></a> -->
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./Images/Food app.jpg" alt="" height="250" width="400" />
+          <div class="portfolio-layer">
+            <h4>Design</h4>
+            <p>This is a food mobile app I designed.</p>
+            <!-- <a href=" https://joe-bits.github.io/Chess--Game/"
+              ><i class="bx bx-link-external"></i
+            ></a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonial design-->
+
+    <div class="testimonial-container">
+      <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+      <div class="testimonial-wrapper">
+        <div class="testimonial-box mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <div class="testimonial-slide swiper-slide">
+              <img src="./Images/muga.jpg" alt="" />
+              <h3>Nancy Muga</h3>
+              <p>
+                What sets John Odhiambo apart from his peers is the versatility
+                and commitment to excellence. Juggling between the technical
+                intricacies of front-end development and the creative nuances of
+                photography and videography, John showcases a rare blend of
+                skills that makes him an invaluable asset. His professionalism,
+                creativity, and reliability makes him a pleasure to work with,
+                and I wholeheartedly recommend him to anyone seeking top-tier
+                talent in these domains.
+              </p>
+            </div>
+
+            <div class="testimonial-slide swiper-slide">
+              <img src="./Images/Olingo.jpg" alt="" />
+              <h3>Maxwell Olingo</h3>
+              <p>
+                John possesses an unparalleled proficiency in front-end
+                development, seamlessly bringing creative visions to life
+                through intuitive and visually stunning user interfaces. Their
+                meticulous attention to detail and innovative approach to design
+                have consistently exceeded my expectations, resulting in
+                websites that not only function flawlessly but also captivate
+                and engage audiences with their aesthetic appeal.
+              </p>
+            </div>
+
+            <div class="testimonial-slide swiper-slide">
+              <img src="./Images/friday.JPG" alt="" />
+              <h3>Friday Kinara</h3>
+              <p>
+                John is a goal oriented person that everybody would love to work with. He is also a very hardworking person. He is very passionate about what he does.
+              </p>
+            </div>
+
+            <div class="testimonial-slide swiper-slide">
+              <img src="./Images/Opetu.jpg" alt="" />
+              <h3>Vincent Opetu</h3>
+              <p>
+                John has not only met but exceeded my expectations, consistently
+                delivering results that showcase hi passion for craft.
+                I look forward to continuing our collaboration and witnessing
+                the continued success of this exceptional front-end developer
+                and visual storyteller.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>   
+      </div>
+    </div>
+
+    <!--Contact section design-->
+
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 class="heading">Contact <span>Me</span></h2>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bx bx-location-plus"></i>
+                <h4>Location:</h4>
+                <p>Nairobi, Kenya</p>
+              </div>
+
+              <div class="email">
+                <i class="bx bx-envelope"></i>
+                <h4>Email:</h4>
+                <p>odhiambo212john@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bx bx-phone"></i>
+                <h4>Call:</h4>
+                <p>+2547 240 685 80</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--footer section-->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by John Odhiambo | All Rights Reserved</p>
+
+        <div class="footer-iconTop">
+          <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
